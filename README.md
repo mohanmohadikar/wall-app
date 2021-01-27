@@ -5,18 +5,6 @@
 MongoDB, Expressjs, React/Redux, Nodejs
 </p>
 
-<p align="center">
-   <a href="https://travis-ci.com/amazingandyyy/mern">
-      <img src="https://travis-ci.com/amazingandyyy/mern.svg?branch=master" />
-   </a>
-   <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-green.svg" />
-   </a>
-   <a href="https://circleci.com/gh/mohanmohadikar/wall-app">
-      <img src="https://circleci.com/gh/amazingandyyy/mern.svg?style=svg" />
-   </a>
-</p>
-
 > MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
 
 MERN stack is the idea of using Javascript/Node for fullstack web development.
@@ -79,26 +67,6 @@ $ cd server   // go to server folder
 $ npm i       // npm install pacakges
 $ npm run dev // run it locally
 $ npm run build // this will build the server code to es5 js codes and generate a dist file
-```
-
-## Deploy Server to [Heroku](https://dashboard.heroku.com/)
-```terminal
-$ npm i -g heroku
-$ heroku login
-...
-$ heroku create
-$ npm run heroku:add <your-super-amazing-heroku-app>
-// remember to run this command in the root level, not the server level, so if you follow the documentation along, you may need to do `cd ..`
-$ pwd
-/Users/<your-name>/mern
-$ npm run deploy:heroku
-```
-
-### After creating heroku
-
-remember to update the file of [client/webpack.prod.js](https://github.com/mohanmohadikar/wall-app/blob/master/client/webpack.prod.js)
-```javascript
- 'API_URI': JSON.stringify('https://your-super-amazing-heroku-app.herokuapp.com')
 ```
 
 # Dependencies(tech-stacks)
