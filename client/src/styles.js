@@ -1,16 +1,19 @@
 import { makeStyles } from '@material-ui/core/styles';
-
+/*
+Black (#101820FF) and Orange (#F2AA4CFF)
+*/
 export default makeStyles(() => ({
   appBar: {
-    borderRadius: 15,
-    margin: '30px 0',
+    borderRadius: 5,
+    marginBottom: '30px',
     display: 'flex',
+    backgroundColor: '#EC6065',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
   },
   heading: {
-    color: 'rgba(0,0,0, 1)',
+    color: '#ffffff',
   },
   image: {
     marginLeft: '15px',
