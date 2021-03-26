@@ -4,8 +4,9 @@ export default makeStyles({
   media: {
     height: 0,
     paddingTop: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    backgroundColor: 'rgba(0, 0, 0, 0)',
     backgroundBlendMode: 'darken',
+    width: '100%'
   },
   border: {
     border: 'solid',
@@ -22,16 +23,19 @@ export default makeStyles({
     position: 'relative',
   },
   overlay: {
-    position: 'absolute',
-    top: '20px',
-    left: '20px',
-    color: 'white',
+    marginTop: '5px',
+    marginLeft: '5px',
+    color: 'blue',
   },
   overlay2: {
     position: 'absolute',
-    top: '20px',
-    right: '20px',
-    color: 'white',
+    top: '10px',
+    right: '0px',
+    color: 'black',
+  },
+  profileImage: {
+    borderRadius: '50px',
+    width: '50px'
   },
   grid: {
     display: 'flex',
@@ -52,4 +56,10 @@ export default makeStyles({
   message: {
     marginTop: '-20px',
   },
+  seprator: {
+    alignSelf: 'center',
+    height: '1px',
+    background: 'rgba(0, 0, 0, 0.3)',
+    width: '90%'
+  }
 });
